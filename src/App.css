@@ -1,0 +1,47 @@
+.headForm {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.inputField {
+  width: 10rem;
+  border-radius: 30px;
+  height:3rem;
+  border: 1px solid red;
+  color: rgba(244, 209, 10, 0.975);
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+.inputField:focus-visible {
+    outline: 1px solid red;
+}
+.inputSubmit{
+  width: 1rem;
+  padding: 1rem;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contentImage {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  box-shadow: 5px 5px 8px #000000;
+}
+.title {
+  margin: auto;
+}
+.image{
+  width: 100%;
+  height: 100%;
+}
+.pageButton {
+  color: #fff;
+  border: none;
+  background: rgb(78, 78, 194);
+  padding: 1rem;
+  border-radius:30px;
+  margin: .5rem;
+}
